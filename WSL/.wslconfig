@@ -1,0 +1,23 @@
+####
+# This file should be placed in:
+#    %userprofile% folder
+####
+# Example from: https://learn.microsoft.com/en-us/windows/wsl/wsl-config#example-wslconfig-file
+####
+
+# Settings apply across all Linux distros running on WSL 2
+[wsl2]
+
+
+# Limits VM memory to use no more than 4 GB, this can be set as whole numbers using GB or MB
+# memory=4GB
+#
+#   test with: free -h
+
+
+# Disables nested virtualization
+# nestedVirtualization=false
+#
+#   test with:
+#    egrep -c '(vmx|svm)'  /proc/cpuinfo
+#    lscpu | grep -i "Virtualization"

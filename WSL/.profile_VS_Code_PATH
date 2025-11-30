@@ -1,0 +1,5 @@
+# VS Code bin
+PATH="/mnt/c/Users/fblouin/AppData/Local/Programs/Microsoft VS Code/bin:$PATH"
+
+# This env var is read by "C:\Users\fblouin\.vscode\extensions\ms-vscode-remote.remote-wsl-0.104.3\scripts\wslDownload.sh"
+export VSCODE_SERVER_TAR=/home/fblouin/vscode-server-linux-x64.tar.gz
